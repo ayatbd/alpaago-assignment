@@ -1,5 +1,13 @@
+import Navbar from "./Navbar";
+import WeatherApp from "./WeatherApp/WeatherApp";
+
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Navbar />
+      <WeatherApp></WeatherApp>
+    </div>
+  );
 };
 
 export default HomePage;
